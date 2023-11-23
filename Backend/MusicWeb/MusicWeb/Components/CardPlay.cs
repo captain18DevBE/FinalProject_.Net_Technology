@@ -1,9 +1,18 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MusicWeb.Models.Domain;
 
 namespace MusicWeb.Components
 {
     public class CardPlay : ViewComponent
     {
-        public IViewComponentResult Invoke() { return View(); }
+        private readonly DatabaseContext _context;
+
+        public CardPlay(DatabaseContext context)
+        {
+            _context = context;
+        }
+        public IViewComponentResult Invoke() { 
+            return View(_context.Songs.ToList()); 
+        }
     }
 }

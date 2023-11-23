@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\MusicWeb.bundle.scp.css"
     },
     {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\Database.sql",
+      "PackagePath": "staticwebassets\\Database.sql"
+    },
+    {
       "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\css\\MusicItem.css",
       "PackagePath": "staticwebassets\\css\\MusicItem.css"
     },
@@ -17,8 +21,356 @@
       "PackagePath": "staticwebassets\\css\\sb-admin-2.min.css"
     },
     {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\1.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\1.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\10.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\10.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\11.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\11.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\12.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\12.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\13.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\13.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\14.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\14.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\15.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\15.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\16.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\16.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\17.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\17.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\18.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\18.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\19.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\19.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\2.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\2.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\20.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\20.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\3.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\3.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\4.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\4.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\5.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\5.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\6.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\6.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\7.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\7.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\8.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\8.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\9.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\9.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\arjit\\1.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\arjit\\1.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\arjit\\10.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\arjit\\10.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\arjit\\11.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\arjit\\11.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\arjit\\12.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\arjit\\12.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\arjit\\13.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\arjit\\13.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\arjit\\14.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\arjit\\14.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\arjit\\15.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\arjit\\15.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\arjit\\2.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\arjit\\2.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\arjit\\3.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\arjit\\3.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\arjit\\4.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\arjit\\4.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\arjit\\5.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\arjit\\5.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\arjit\\6.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\arjit\\6.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\arjit\\7.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\arjit\\7.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\arjit\\8.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\arjit\\8.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\arjit\\9.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\arjit\\9.mp3"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\arjit\\AlbumArtSmall.jpg",
+      "PackagePath": "staticwebassets\\data\\audio\\arjit\\AlbumArtSmall.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\audio\\arjit\\Folder.jpg",
+      "PackagePath": "staticwebassets\\data\\audio\\arjit\\Folder.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\1.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\1.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\10.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\10.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\11.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\11.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\12.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\12.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\13.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\13.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\14.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\14.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\15.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\15.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\16.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\16.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\17.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\17.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\18.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\18.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\19.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\19.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\2.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\2.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\20.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\20.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\3.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\3.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\4.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\4.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\5.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\5.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\6.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\6.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\7.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\7.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\8.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\8.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\9.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\9.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\Diljit_Dosanjh.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\Diljit_Dosanjh.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\KDS CODER.png",
+      "PackagePath": "staticwebassets\\data\\img\\KDS CODER.png"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\akhil.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\akhil.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\alan.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\alan.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\arjit.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\arjit.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\arjit\\1.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\arjit\\1.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\arjit\\10.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\arjit\\10.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\arjit\\11.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\arjit\\11.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\arjit\\12.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\arjit\\12.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\arjit\\13.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\arjit\\13.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\arjit\\14.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\arjit\\14.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\arjit\\15.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\arjit\\15.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\arjit\\2.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\arjit\\2.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\arjit\\3.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\arjit\\3.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\arjit\\4.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\arjit\\4.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\arjit\\5.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\arjit\\5.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\arjit\\6.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\arjit\\6.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\arjit\\7.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\arjit\\7.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\arjit\\8.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\arjit\\8.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\arjit\\9.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\arjit\\9.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\atif.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\atif.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\dhvani.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\dhvani.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\guru.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\guru.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\honey.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\honey.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\jubin Nautiyal.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\jubin Nautiyal.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\justin-bieber-lede.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\justin-bieber-lede.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\music-note-list.svg",
+      "PackagePath": "staticwebassets\\data\\img\\music-note-list.svg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\data\\img\\neha.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\neha.jpg"
+    },
+    {
       "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\img\\background_login.jpg",
+      "PackagePath": "staticwebassets\\img\\background_login.jpg"
+    },
+    {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\img\\background_register.jpg",
+      "PackagePath": "staticwebassets\\img\\background_register.jpg"
     },
     {
       "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\img\\undraw_posting_photo.svg",
