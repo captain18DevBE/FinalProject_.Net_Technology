@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Spotify-Music\\Spotify-Music\\Spotify-Music.csproj": {}
+    "C:\\Code\\CN.Net\\Project\\Github\\FinalProject_.Net_Technology\\Spotify-Music\\Spotify-Music\\Spotify-Music.csproj": {}
   },
   "projects": {
-    "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Spotify-Music\\Spotify-Music\\Spotify-Music.csproj": {
+    "C:\\Code\\CN.Net\\Project\\Github\\FinalProject_.Net_Technology\\Spotify-Music\\Spotify-Music\\Spotify-Music.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Spotify-Music\\Spotify-Music\\Spotify-Music.csproj",
+        "projectUniqueName": "C:\\Code\\CN.Net\\Project\\Github\\FinalProject_.Net_Technology\\Spotify-Music\\Spotify-Music\\Spotify-Music.csproj",
         "projectName": "Spotify-Music",
-        "projectPath": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Spotify-Music\\Spotify-Music\\Spotify-Music.csproj",
+        "projectPath": "C:\\Code\\CN.Net\\Project\\Github\\FinalProject_.Net_Technology\\Spotify-Music\\Spotify-Music\\Spotify-Music.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Spotify-Music\\Spotify-Music\\obj\\",
+        "outputPath": "C:\\Code\\CN.Net\\Project\\Github\\FinalProject_.Net_Technology\\Spotify-Music\\Spotify-Music\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -86,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

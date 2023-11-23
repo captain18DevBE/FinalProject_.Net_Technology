@@ -1,0 +1,47 @@
+﻿@model MusicWeb.Models.DTO.LoginModel;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+</head>
+<body>
+    
+    <div>
+        <form asp-action="Login" method="post">
+            <div class="container">
+                <label asp-for="Username">Username</label>
+                <input type="text" asp-for="Username" />
+
+                <div class="msg">
+                    <span asp-validation-for="Username"></span>
+                </div>
+                    
+                <label asp-for="Password">Password</label>
+                <input type="password" asp-for="Password" />
+
+                <div class="msg">
+                    <span asp-validation-for="Password"></span>
+                </div>
+
+                @if (TempData["msg"]!=null)
+                {
+                    <div class="msg">
+                        @TempData["msg"]
+                    </div>
+                }
+
+                <button type="submit">Dang nhap</button>
+                <a href="/UserAuthentication/Registration">Dang ki tai khoan</a>
+            </div>
+
+        </form>
+
+    </div>
+</body>
+</html>

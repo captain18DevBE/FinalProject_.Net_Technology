@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J+wpuXNDN/r4ynguLyHzIxJIz5gke6HOSKX9ziR9Y72lTMQTBk0AQKb8VrV6DFu0ShuJnYxVqo19ENqFru/BlQ==",
+  "dgSpecHash": "KuHi5MAQYjly9bO9ijZSSGSaJEItO3MGqdZg5b+JxfX4+PDAWXqRVvKyXfOA9l5XlPGNO+AGlIe4CrP2Yh4mfA==",
   "success": true,
-  "projectFilePath": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Spotify-Music\\Spotify-Music\\Spotify-Music.csproj",
+  "projectFilePath": "C:\\Code\\CN.Net\\Project\\Github\\FinalProject_.Net_Technology\\Spotify-Music\\Spotify-Music\\Spotify-Music.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
