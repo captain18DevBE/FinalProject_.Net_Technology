@@ -10865,11 +10865,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\CN.Net\\Project\\Temp\\MusicWeb\\MusicWeb\\MusicWeb.csproj",
+      "projectUniqueName": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\MusicWeb.csproj",
       "projectName": "MusicWeb",
-      "projectPath": "C:\\Code\\CN.Net\\Project\\Temp\\MusicWeb\\MusicWeb\\MusicWeb.csproj",
+      "projectPath": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\MusicWeb.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\CN.Net\\Project\\Temp\\MusicWeb\\MusicWeb\\obj\\",
+      "outputPath": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10936,7 +10936,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

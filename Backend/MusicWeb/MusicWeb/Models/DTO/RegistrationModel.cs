@@ -4,19 +4,19 @@ namespace MusicWeb.Models.DTO
 {
     public class RegistrationModel
     {
-        [Required]
+        [Required(ErrorMessage ="Vui lòng nhập tên người dùng!")]
         public string Name { get; set; }
-        [Required]
+        [Required(ErrorMessage ="Vui lòng nhập địa chỉ Email!")]
         [EmailAddress]
         public string Email { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Nhập tên tài khoản đăng nhập!")]
         public string UserName { get; set; }
-        [Required(ErrorMessage = "Password is required.")]
-        [RegularExpression(@"^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$",
-        ErrorMessage = "Password must be at least 8 characters long and contain at least one letter and one digit.")]
+        [Required(ErrorMessage = "Vui lòng nhập mật khẩu!")]
+        //[RegularExpression(@"^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{5,}$",
+        //ErrorMessage = "Vui lòng nhập mật khẩu phải bao gồm 5 kí tự và kí tự đặc biệt!")]
         public string Password { get; set; }
-        [Required]
-        [Compare("Password")]
+        [Required(ErrorMessage ="Vui lòng xác nhận mật khẩu")]
+        [Compare("Password", ErrorMessage ="Mật khẩu không chính xác!")]
         public string PasswordConfirmed { get; set; }
         public string ? Role { get; set; }
     }

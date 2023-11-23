@@ -63,18 +63,18 @@ namespace MusicWeb.Controllers
             return RedirectToAction(nameof(Login));
         }
 
-        //public async Task<IActionResult> Reg()
-        //{
-        //    var model = new RegistrationModel
-        //    {
-        //        UserName = "user",
-        //        Name = "Le Duy",
-        //        Email = "tlduyuser18dev@gmail.com",
-        //        Password = "Tranleduy@1808",
-        //    };
-        //    model.Role = "user";
-        //    var result = await _service.RegistrationAsync(model);
-        //    return Ok(result);
-        //}
+        public async Task<IActionResult> Reg()
+        {
+            var model = new RegistrationModel
+            {
+                UserName = "LeDuy",
+                Name = "Le Duy",
+                Email = "tlduyuser18dev@gmail.com",
+                Password = "Tranleduy@1808",
+            };
+            model.Role = "admin";
+            var result = await _service.RegistrationAsync(model);
+            return Ok(result);
+        }
     }
 }

@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MusicWeb.Controllers
 {
-//    [Authorize]
+    [Authorize]
     public class DashboardController : Controller
     {
         public IActionResult Display()
