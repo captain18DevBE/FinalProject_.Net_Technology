@@ -20,6 +20,31 @@ namespace MusicWeb.Repositories.Implementation
             this.roleManager = roleManager;
         }
 
+        public async Task<Status> ChangePasswordAsync(ChangePasswordModel model)
+        {
+            var status = new Status();
+            var user = await userManager.FindByNameAsync(model.UserName);
+            if (!await userManager.CheckPasswordAsync(user, model.CurrentPassword))
+            {
+                status.StatusCode = 0;
+                status.StatusMessage = "Mật khẩu không đúng!";
+                return status;
+            }
+
+            var result = await userManager.ChangePasswordAsync(user,model.CurrentPassword, model.NewPassword);
+
+            if (result.Succeeded)
+            {
+                status.StatusCode = 1;
+                status.StatusMessage = "Thay đổi mật khẩu thành công!";
+                return status;
+            }
+            status.StatusCode = 0;
+            status.StatusMessage = "Đã có lỗi xãy ra vui lòng thử lại sau!";
+            return status;
+
+        }
+
         public async Task<Status> LoginAsync(LoginModel model)
         {
             var status = new Status();

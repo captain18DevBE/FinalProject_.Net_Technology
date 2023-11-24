@@ -63,6 +63,33 @@ namespace MusicWeb.Controllers
             return RedirectToAction(nameof(Login));
         }
 
+        public IActionResult ChangePassword()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ChangePassword(ChangePasswordModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            var result = await _service.ChangePasswordAsync(model);
+            //if (result.StatusCode == 1)
+            //{
+            //    return RedirectToAction("display", "Dashboard");
+            //}
+            if (result.StatusCode != 1)
+            {
+                TempData["msg"] = result.StatusMessage;
+                return RedirectToAction(nameof(Login));
+            }
+            TempData["msg"] = result.StatusMessage;
+            return RedirectToAction(nameof(Login));
+        }
+
         public async Task<IActionResult> Reg()
         {
             var model = new RegistrationModel

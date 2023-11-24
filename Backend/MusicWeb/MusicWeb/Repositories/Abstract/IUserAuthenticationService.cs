@@ -7,5 +7,6 @@ namespace MusicWeb.Repositories.Abstract
         Task<Status> LoginAsync(LoginModel model);
         Task<Status> RegistrationAsync(RegistrationModel model);
         Task LogoutAsync();
+        Task<Status> ChangePasswordAsync(ChangePasswordModel model);
     }
 }
