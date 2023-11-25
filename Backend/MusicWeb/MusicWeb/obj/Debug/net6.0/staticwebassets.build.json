@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "S6poF9QMSAxaK2rKw19ZEsL+t69Q1VjZWn34GoAvRGI=",
+  "Hash": "FXMbVfD6O4Dn1mGA0iyOH5gRbM5VGjtFqR6L3VU1j80=",
   "Source": "MusicWeb",
   "BasePath": "_content/MusicWeb",
   "Mode": "Default",
@@ -2599,6 +2599,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\img\\background_addsong.jpg",
+      "SourceId": "MusicWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\",
+      "BasePath": "_content/MusicWeb",
+      "RelativePath": "img/background_addsong.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\background_addsong.jpg"
     },
     {
       "Identity": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\img\\background_login.jpg",

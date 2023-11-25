@@ -365,6 +365,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\img\\background_addsong.jpg",
+      "PackagePath": "staticwebassets\\img\\background_addsong.jpg"
+    },
+    {
       "Id": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\wwwroot\\img\\background_login.jpg",
       "PackagePath": "staticwebassets\\img\\background_login.jpg"
     },

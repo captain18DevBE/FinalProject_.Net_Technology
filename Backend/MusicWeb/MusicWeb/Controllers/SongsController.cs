@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -45,6 +46,7 @@ namespace MusicWeb.Controllers
         }
 
         // GET: Songs/Create
+        [Authorize(Roles = "admin")]
         public IActionResult Create()
         {
             return View();
@@ -55,7 +57,7 @@ namespace MusicWeb.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("SongId,Title,SongName,Rate,LinkLocal,Lyric")] Songs songs)
+        public async Task<IActionResult> Create([Bind("SongId,Title,SongName,Rate,LinkLocal,LinkImg,Lyric")] Songs songs)
         {
             if (ModelState.IsValid)
             {
