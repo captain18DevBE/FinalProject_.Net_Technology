@@ -1,0 +1,128 @@
+﻿@model MusicWeb.Models.Domain.Songs
+@{
+    ViewData["Title"] = "Music Play";
+
+    string name = User.Identity.Name;
+    string role = User.IsInRole("admin") ? "admin" : "user";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/795e95ca15.js" crossorigin="anonymous"></script>
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="head">
+        <div class="divH1">
+            <img src="@Model.LinkImg" class="img">
+        </div>
+        <div class="divH2">
+            <h1>@Model.SongName</h1>
+            <p>@Model.Title</p>
+        </div>
+    </div>
+    <div class="lyric-container">
+        <h2>LỜI BÀI HÁT</h2>
+        <p>
+            I'm sorry but
+            Don't wanna talk, I need a moment 'fore I go
+            It's nothing personal
+            I draw the blinds
+            They don't need to see me cry
+            'Cause even if they understand
+            They don't understand
+            So then when I'm finished
+            I'm all 'bout my business and ready to save the world
+            I'm taking my misery
+            Make it my bitch, can't be everyone's favorite girl
+            So take aim and fire away
+            I've never been so wide awake
+            No, nobody but me can keep me safe
+            And I'm on my way
+            The blood moon is on the rise
+            The fire burning in my eyes
+            No, nobody but me can keep me safe
+            And I'm on my way
+            Lo siento mucho (Farru), pero me voy
+            Porque a tu lado me di cuenta que nada soy
+            Y me cansé de luchar y de guerrear en vano
+            De estar en la línea de fuego y de meter la mano
+            Acepto mis errores, también soy humano
+            Y tú no ve' que lo hago porque te amo
+            Pero ya (Ya) no tengo más na' que hacer aquí (aquí)
+            Me voy, llegó la hora 'e partir (partir)
+            De mi propio camino, seguir lejos de ti
+            So take aim and fire away
+            I've never been so wide awake
+            No, nobody but me can keep me safe
+            And I'm on my way
+            The blood moon is on the rise (is on the rise, na-na)
+            The fire burning in my eyes (the fire burning in my eyes)
+            No, nobody but me can keep me safe
+            And I'm on my way
+            I'm on my way
+            Everybody keep me safe
+            Everybody keep me safe
+            Everybody keep me safe
+            Everybody, everybody on my way
+            So take aim and fire away
+            I've never been so wide awake
+            No, nobody but me can keep me safe
+            And I'm on my way
+            The blood moon is on the rise
+            The fire burning in my eyes
+            No, nobody but me can keep me safe
+            And I'm on my way
+        </p>
+    </div>
+    <div class="container">
+        <div class="music-player">
+            <div class="div1">
+                <img src="@Model.LinkImg" class="song-img">
+                <h3 style="margin-left: 5px;">@Model.SongName</h3>
+                <p style="margin-left: 5px; margin-top: 2px;">@Model.Title</p>
+            </div>
+            <div class="div2" style="width: 50%;">
+                <audio controls id="song" style="width: 100%;">
+                    <source src="@Model.LinkLocal" type="audio/mpeg" id="ctrlHeart">
+                </audio>
+            </div>
+            <div class="div3">
+                <div onclick="changeHeart()" class="circle">
+                    
+                    <a asp-controller="FavouritesSongs" asp-action="CreateNew" asp-route-id="@Model.SongId" asp-route-username="@name">><i class="fa-regular fa-heart fa-2xl" id="controlIcon" style="color: #ffffff;"></i></a>
+
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script>
+        let controlIcon = document.getElementById("controlIcon");
+        let song = document.getElementById("song");
+        var image = document.querySelector(".song-img");
+        song.addEventListener("play", function () {
+            image.classList.add("rotate-image");
+        });
+
+        song.addEventListener("pause", function () {
+            image.classList.remove("rotate-image");
+        });
+        function changeHeart() {
+            if (controlIcon.classList.contains("fa-regular")) {
+
+                controlIcon.classList.remove("fa-regular");
+                controlIcon.classList.add("fa-solid")
+            } else {
+                controlIcon.classList.remove("fa-solid");
+                controlIcon.classList.add("fa-regular")
+            }
+        }
+    </script>
+</body>
+</html>

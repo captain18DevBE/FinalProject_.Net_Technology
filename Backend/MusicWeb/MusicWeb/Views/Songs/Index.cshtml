@@ -1,18 +1,14 @@
 ﻿@model IEnumerable<MusicWeb.Models.Domain.Songs>
 
 @{
-    Layout = null;
+    ViewData["Title"] = "Index";
 }
 
-<!DOCTYPE html>
+<h5>Những bài hát hot nhất tháng</h5>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
-<p>
+
+@await Component.InvokeAsync("CardPlay")
+@* <p>
     <a asp-action="Create">Create New</a>
 </p>
 <table class="table">
@@ -29,6 +25,9 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.LinkLocal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LinkImg)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Lyric)
@@ -52,10 +51,10 @@
                 @Html.DisplayFor(modelItem => item.LinkLocal)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Lyric)
+                @Html.DisplayFor(modelItem => item.LinkImg)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.LinkImg)
+                @Html.DisplayFor(modelItem => item.Lyric)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.SongId">Edit</a> |
@@ -65,6 +64,4 @@
         </tr>
 }
     </tbody>
-</table>
-</body>
-</html>
+</table> *@

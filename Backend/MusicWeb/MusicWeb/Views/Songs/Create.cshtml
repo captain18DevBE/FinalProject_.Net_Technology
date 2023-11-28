@@ -1,44 +1,23 @@
 ﻿@model MusicWeb.Models.Domain.Songs
 
 @{
-    Layout = null;
+    ViewData["Title"] = "Create";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <title>Create</title>
-
+<header>
     <style>
-        .row {
+        .title {
             display: flex;
-            justify-content: center; /* căn giữa theo chiều ngang */
-            align-items: center; /* căn giữa theo chiều dọc */
-            height: 100vh; /* độ cao tối đa của màn hình */
+            justify-content: center; /* Căn giữa theo chiều ngang */
         }
-        body {
-            background-image: url(/img/background_addsong.jpg);
-            background-color: rgba(0, 0, 0, 0.5);
-            color: white;
-        }
-
     </style>
-</head>
-<body>
-    <figure class="text-center">
-        <blockquote class="blockquote">
-            <p>THÊM BÀI HÁT MỚI</p>
-        </blockquote>
-        <figcaption class="blockquote-footer">
-            Quản lý<cite title="Source Title">Âm nhạc</cite>
-        </figcaption>
-    </figure>
+</header>
+
+<h1 class="title">THÊM BÀI HÁT MỚI</h1>
+
+<h4 class="title" >QUẢN LÝ BÀI HÁT</h4>
 <hr />
-<div class="row">
+<div class="row title">
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -52,36 +31,34 @@
                 <input asp-for="SongName" class="form-control" />
                 <span asp-validation-for="SongName" class="text-danger"></span>
             </div>
-@*             <div class="form-group">
-                <label asp-for="Rate" class="control-label">Số lượn</label>
-                <input asp-for="Rate" class="form-control" value="0"/>
-                <span asp-validation-for="Rate" class="text-danger"></span>
-            </div> *@
             <div class="form-group">
-                <label asp-for="LinkLocal" class="control-label">Đường dẫn cục bộ file nhạc .mp3</label>
-                    <input asp-for="LinkLocal" class="form-control" placeholder="/data/audio/" />
+                <label asp-for="Rate" class="control-label">Chỉ số Rating</label>
+                <input asp-for="Rate" class="form-control" />
+                <span asp-validation-for="Rate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LinkLocal" class="control-label">Tên file nhạc</label>
+                <input asp-for="LinkLocal" class="form-control" />
                 <span asp-validation-for="LinkLocal" class="text-danger"></span>
             </div>
-                <div class="form-group">
-                    <label asp-for="LinkImg" class="control-label">Đường dẫn cục bộ file ảnh</label>
-                    <input asp-for="LinkImg" class="form-control" placeholder="/data/img/"/>
-                    <span asp-validation-for="LinkImg" class="text-danger"></span>
-                </div>
+            <div class="form-group">
+                <label asp-for="LinkImg" class="control-label">Ghi chú</label>
+                <input asp-for="LinkImg" class="form-control" />
+                <span asp-validation-for="LinkImg" class="text-danger"></span>
+            </div>
             <div class="form-group">
                 <label asp-for="Lyric" class="control-label">Lời bài hát</label>
                 <input asp-for="Lyric" class="form-control" />
                 <span asp-validation-for="Lyric" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group title">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
-</html>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

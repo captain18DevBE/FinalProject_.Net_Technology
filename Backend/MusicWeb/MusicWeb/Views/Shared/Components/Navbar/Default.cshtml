@@ -1,6 +1,4 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿
 @{
     string name = User.Identity.Name;
     string role = User.IsInRole("admin") ? "admin" : "user";
@@ -22,7 +20,7 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="/Dashboard/Display">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>TRANG CHỦ</span>
         </a>
@@ -45,7 +43,7 @@
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-                <a class="collapse-item" href="#">YÊU THÍCH</a>
+                <a class="collapse-item" asp-controller="FavouritesSongs" asp-route-username="@name" asp-action="Index">YÊU THÍCH</a>
                 <a class="collapse-item" href="cards.html">NGE GẦN ĐÂY</a>
             </div>
         </div>
@@ -54,17 +52,23 @@
     @if (User.IsInRole("admin"))
     {
         <li class="nav-item active">
-            <a class="nav-link" href="/Songs/Create">
+            <a class="nav-link" href="/Admin/Display">
                 <i class="fas fa-fw fa-tachometer-alt"></i>
-                <span>THÊM BÀI HÁT</span>
+                <span>Admin Page</span>
             </a>
         </li>
         <li class="nav-item active">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="/Songs/Create">
                 <i class="fas fa-fw fa-tachometer-alt"></i>
-                <span>NGƯỜI DÙNG</span>
+                <span>QL BÀI HÁT</span>
             </a>
         </li>
+@*         <li class="nav-item active">
+            <a class="nav-link" href="/Admin/Display">
+                <i class="fas fa-fw fa-tachometer-alt"></i>
+                <span>QL NGƯỜI DÙNG</span>
+            </a>
+        </li> *@
     }
 
     

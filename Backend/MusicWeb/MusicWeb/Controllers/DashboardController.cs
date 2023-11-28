@@ -8,7 +8,7 @@ namespace MusicWeb.Controllers
     {
         public IActionResult Display()
         {
-            return View();
+            return RedirectToAction("Index", "Songs");
         }
     }
 }

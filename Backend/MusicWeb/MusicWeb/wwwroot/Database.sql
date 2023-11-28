@@ -23,3 +23,12 @@ VALUES ('Agar Tum Saath Ho', 'Agar Tum Saath Ho', 10, '/data/audio/7.mp3', 'Agar
 
 INSERT INTO dbo.Songs (Title, SongName, Rate, LinkLocal, Lyric, LinkImg)
 VALUES ('Suna Hai', 'Suna Hai', 10, '/data/audio/8.mp3', 'Suna Hai', '/data/img/8.jpg');
+
+CREATE TABLE FavouritesSongs (
+    FavoritesId INT PRIMARY KEY,
+    SongId INT,
+    UserName NVARCHAR(MAX) NOT NULL,
+    FOREIGN KEY (SongId) REFERENCES Songs(SongId)
+);
+
+select * from dbo.FavouritesSongs

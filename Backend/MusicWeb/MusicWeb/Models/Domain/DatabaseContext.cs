@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using MusicWeb.Models.Domain;
 
 namespace MusicWeb.Models.Domain
 {
@@ -11,5 +12,6 @@ namespace MusicWeb.Models.Domain
         
         }
         public DbSet<Songs> Songs { get; set; }
+        public DbSet<MusicWeb.Models.Domain.FavouritesSongs>? FavouritesSongs { get; set; }
     }
 }

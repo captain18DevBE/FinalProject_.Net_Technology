@@ -22,6 +22,9 @@ builder.Services.ConfigureApplicationCookie(op => op.LoginPath = "/UserAuthentic
 
 builder.Services.AddScoped<IUserAuthenticationService, UserAuthenticationService>();
 
+builder.Services.AddScoped<SongsService>();
+builder.Services.AddScoped<FavouriteSongsService>();
+
 var app = builder.Build();
 
 

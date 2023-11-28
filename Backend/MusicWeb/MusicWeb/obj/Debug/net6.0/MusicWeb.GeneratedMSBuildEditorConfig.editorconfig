@@ -24,6 +24,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXERpc3BsYXkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/FavouritesSongs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3VyaXRlc1NvbmdzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/FavouritesSongs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3VyaXRlc1NvbmdzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/FavouritesSongs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3VyaXRlc1NvbmdzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/FavouritesSongs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3VyaXRlc1NvbmdzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/FavouritesSongs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3VyaXRlc1NvbmdzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -46,6 +66,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/Shared/Components/Notification/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTm90aWZpY2F0aW9uXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/Shared/Components/Search/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2VhcmNoXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/Shared/Components/UserInf/Default.cshtml]
@@ -78,6 +102,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/Songs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/Songs/MusicPlay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ3NcTXVzaWNQbGF5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/Songs/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ3NcU2VhcmNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/UserAuthentication/ChangePassword.cshtml]

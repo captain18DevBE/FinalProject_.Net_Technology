@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MusicWeb.Models.Domain;
+using MusicWeb.Models.DTO;
 
 namespace MusicWeb.Controllers
 {
@@ -19,12 +20,38 @@ namespace MusicWeb.Controllers
             _context = context;
         }
 
+        // GET: Songs/Create
+        public async Task<IActionResult> MusicPlay(int id)
+        {
+            int songId = id;
+            var songs = await _context.Songs
+                .FirstOrDefaultAsync(m => m.SongId == songId);
+            return View(songs);
+        }
+
         // GET: Songs
         public async Task<IActionResult> Index()
         {
               return _context.Songs != null ? 
                           View(await _context.Songs.ToListAsync()) :
                           Problem("Entity set 'DatabaseContext.Songs'  is null.");
+        }
+
+        // Post: Seatch to Songs
+        [HttpPost]
+        public async Task<IActionResult> Search()
+        {
+            var searchName = Request.Form["searchName"].ToString();
+            List<Songs> songs = await _context.Songs.ToListAsync();
+            List<Songs> dataSearch = new List<Songs>();
+            foreach (var item in songs)
+            {
+                if(item.SongName.Contains(searchName))
+                {
+                    dataSearch.Add(item);
+                }
+            }
+            return View(dataSearch);
         }
 
         // GET: Songs/Details/5
@@ -41,12 +68,10 @@ namespace MusicWeb.Controllers
             {
                 return NotFound();
             }
-
             return View(songs);
         }
-
-        // GET: Songs/Create
         [Authorize(Roles = "admin")]
+        // GET: Songs/Create
         public IActionResult Create()
         {
             return View();
@@ -55,10 +80,14 @@ namespace MusicWeb.Controllers
         // POST: Songs/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize(Roles = "admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("SongId,Title,SongName,Rate,LinkLocal,LinkImg,Lyric")] Songs songs)
+        public async Task<IActionResult> Create([Bind("Title,SongName,Rate,LinkLocal,LinkImg,Lyric")] Songs songs)
         {
+            var linkLocal = songs.LinkLocal;
+            songs.LinkLocal = "/data/audio/" + linkLocal+ ".mp3";
+            songs.LinkImg = "/data/img/" + linkLocal+ ".jpg";
             if (ModelState.IsValid)
             {
                 _context.Add(songs);
@@ -87,9 +116,10 @@ namespace MusicWeb.Controllers
         // POST: Songs/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize(Roles = "admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("SongId,Title,SongName,Rate,LinkLocal,Lyric")] Songs songs)
+        public async Task<IActionResult> Edit(int id, [Bind("SongId,Title,SongName,Rate,LinkLocal,LinkImg,Lyric")] Songs songs)
         {
             if (id != songs.SongId)
             {
@@ -118,7 +148,7 @@ namespace MusicWeb.Controllers
             }
             return View(songs);
         }
-
+        [Authorize(Roles = "admin")]
         // GET: Songs/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
@@ -136,7 +166,7 @@ namespace MusicWeb.Controllers
 
             return View(songs);
         }
-
+        [Authorize(Roles = "admin")]
         // POST: Songs/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]

@@ -1,0 +1,28 @@
+﻿@model List<MusicWeb.Models.Domain.Songs>
+@{
+}
+<link href="/css/MusicItem.css" rel="stylesheet">
+<div class="container mt-2">
+    <div class="row">
+        @{
+            int count = 0;
+        }
+
+        @foreach (var item in Model)
+        {
+            if (count <= 7)
+            {
+                <div class="col-md-3 col-sm-6">
+                    <div class="card card-block" style="margin-top: 10px !important" style="margin-top: 10px !important">
+                        <h4 class="card-title text-right">@item.SongName</h4>
+                        <img src="@item.LinkImg" alt="Photo of sunset">
+                        <h5 class="card-title mt-3 mb-3">@item.Title</h5>
+                        <a asp-controller="Songs" asp-action="MusicPlay" asp-route-id="@item.SongId">Lắng nghe bài hát</a>
+                    </div>
+                </div>
+            }
+            count++;
+        }
+    </div>
+
+</div>
