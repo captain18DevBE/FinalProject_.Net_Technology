@@ -1,0 +1,62 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model List<MusicWeb.Models.DTO.User>
+@{
+
+}
+
+<header>
+    <style>
+        .title {
+            display: flex;
+            justify-content: center;
+        }
+
+        body {
+        }
+
+        img {
+            width: 100%;
+        }
+    </style>
+</header>
+<h1 class="title">QUẢN LÝ TÀI KHOẢN</h1>
+
+<h4 class="title">TÀI KHOẢN NGƯỜI DÙNG</h4>
+
+<div class="title">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Tài khoản
+                </th>
+                <th>
+                    Mật khẩu
+                </th>
+                <th>
+                    Địa chỉ Email
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FullName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Password)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+</div>

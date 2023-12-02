@@ -37,6 +37,8 @@ namespace MusicWeb.Controllers
                           Problem("Entity set 'DatabaseContext.Songs'  is null.");
         }
 
+
+
         // Post: Seatch to Songs
         [HttpPost]
         public async Task<IActionResult> Search()
@@ -72,9 +74,14 @@ namespace MusicWeb.Controllers
         }
         [Authorize(Roles = "admin")]
         // GET: Songs/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
-            return View();
+            SongsDTO songsDTO = new SongsDTO();
+            List<Genre> genres = await _context.Genre.ToListAsync();
+            Songs songs = new Songs();
+            songsDTO.Songs = songs;
+            songsDTO.Genres = genres;
+            return View(songsDTO);
         }
 
         // POST: Songs/Create
@@ -96,7 +103,7 @@ namespace MusicWeb.Controllers
             }
             return View(songs);
         }
-
+        [Authorize(Roles = "admin")]
         // GET: Songs/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -190,5 +197,7 @@ namespace MusicWeb.Controllers
         {
           return (_context.Songs?.Any(e => e.SongId == id)).GetValueOrDefault();
         }
+
+
     }
 }

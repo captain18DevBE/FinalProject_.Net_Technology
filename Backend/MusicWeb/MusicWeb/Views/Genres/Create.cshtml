@@ -1,0 +1,40 @@
+﻿@model MusicWeb.Models.Domain.Genre
+
+@{
+    ViewData["Title"] = "Create";
+}
+<header>
+    <style>
+        .title {
+            display: flex;
+            justify-content: center; /* Căn giữa theo chiều ngang */
+        }
+    </style>
+</header>
+<h1 class="title">Thêm thể loại nhạc</h1>
+
+<h4 class="title">Thể loại nhạc</h4>
+<hr />
+<div class="row title">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="GenreName" class="control-label"></label>
+                <input asp-for="GenreName" class="form-control" />
+                <span asp-validation-for="GenreName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="title">
+    <a asp-action="Index">Danh sách thể loại nhạc</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

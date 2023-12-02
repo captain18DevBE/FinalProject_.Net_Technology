@@ -11503,11 +11503,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\MusicWeb.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\FinalProject_.Net_Technology-main (1)\\FinalProject_.Net_Technology-main\\FinalProject_.Net_Technology-main\\Backend\\MusicWeb\\MusicWeb\\MusicWeb.csproj",
       "projectName": "MusicWeb",
-      "projectPath": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\MusicWeb.csproj",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\FinalProject_.Net_Technology-main (1)\\FinalProject_.Net_Technology-main\\FinalProject_.Net_Technology-main\\Backend\\MusicWeb\\MusicWeb\\MusicWeb.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\obj\\",
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\FinalProject_.Net_Technology-main (1)\\FinalProject_.Net_Technology-main\\FinalProject_.Net_Technology-main\\Backend\\MusicWeb\\MusicWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

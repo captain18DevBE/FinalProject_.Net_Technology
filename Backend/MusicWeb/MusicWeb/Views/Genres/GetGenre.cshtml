@@ -1,0 +1,21 @@
+﻿@model List<MusicWeb.Models.Domain.Genre>
+@{
+
+}
+<h3>Nghe nhạc theo thể loại:</h3>
+<div class="row">
+@foreach(var item in Model)
+{
+    
+
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Thể loại: @item.GenreName</h5>
+                    <a asp-controller="Genres" asp-action="Search" asp-route-id="@item.GenreId" class="btn btn-primary">Danh sách bài hát</a>
+                </div>
+            </div>
+        </div>
+
+}
+</div>

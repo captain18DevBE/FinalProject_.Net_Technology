@@ -10,13 +10,11 @@ div [class^="col-"] {
 
 .card {
     transition: 0.5s;
-    cursor: pointer;
 }
 
 .card-title {
     font-size: 15px;
     transition: 1s;
-    cursor: pointer;
 }
 
     .card-title i {

@@ -3,12 +3,26 @@
 @{
     ViewData["Title"] = "Edit";
 }
+<header>
+    <style>
+        .title {
+            display: flex;
+            justify-content: center;
+        }
 
-<h1>Edit</h1>
+        body {
+        }
 
-<h4>Songs</h4>
+        img {
+            width: 100%;
+        }
+    </style>
+</header>
+<h1 class="title">CHỈNH SỬA THÔNG TIN BÀI HÁT</h1>
+
+<h4 class="title">BÀI HÁT</h4>
 <hr />
-<div class="row">
+<div class="row title">
     <div class="col-md-4">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -43,15 +57,15 @@
                 <input asp-for="Lyric" class="form-control" />
                 <span asp-validation-for="Lyric" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+            <div class="form-group title">
+                <input type="submit" value="Lưu" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
+<div class="title">
+    <a asp-action="Index">Trang chủ</a>
 </div>
 
 @section Scripts {

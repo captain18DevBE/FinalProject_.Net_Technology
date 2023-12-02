@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MusicWeb.Models.Domain
 {
@@ -18,5 +19,7 @@ namespace MusicWeb.Models.Domain
 
         public string LinkImg { get; set; }
         public string Lyric { get; set; }
+        [ForeignKey("Genre")]
+        public int GenreId { get; set; }
     }
 }

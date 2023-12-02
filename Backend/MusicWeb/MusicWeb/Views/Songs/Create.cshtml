@@ -1,7 +1,8 @@
-﻿@model MusicWeb.Models.Domain.Songs
+﻿@model MusicWeb.Models.DTO.SongsDTO
 
 @{
     ViewData["Title"] = "Create";
+    
 }
 
 <header>
@@ -22,37 +23,50 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Title" class="control-label">Tiêu đề bài hát</label>
-                <input asp-for="Title" class="form-control" />
-                <span asp-validation-for="Title" class="text-danger"></span>
+                <label asp-for="@Model.Songs.Title" class="control-label">Tiêu đề bài hát</label>
+                <input asp-for="@Model.Songs.Title" class="form-control" />
+                <span asp-validation-for="@Model.Songs.Title" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="SongName" class="control-label">Tên bài hát</label>
-                <input asp-for="SongName" class="form-control" />
-                <span asp-validation-for="SongName" class="text-danger"></span>
+                <label asp-for="@Model.Songs.SongName" class="control-label">Tên bài hát</label>
+                <input asp-for="@Model.Songs.SongName" class="form-control" />
+                <span asp-validation-for="@Model.Songs.SongName" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Rate" class="control-label">Chỉ số Rating</label>
-                <input asp-for="Rate" class="form-control" />
-                <span asp-validation-for="Rate" class="text-danger"></span>
+                <label asp-for="@Model.Songs.GenreId" class="control-label">Thể loại</label>
+                <select asp-for="@Model.Songs.GenreId" class="form-control">
+                    @foreach (var genreId in Model.Genres)
+                    {
+                        <option value="@genreId.GenreId">@genreId.GenreName</option>
+                    }
+                </select>
+                <span asp-validation-for="@Model.Songs.GenreId" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="LinkLocal" class="control-label">Tên file nhạc</label>
-                <input asp-for="LinkLocal" class="form-control" />
-                <span asp-validation-for="LinkLocal" class="text-danger"></span>
+                <label asp-for="@Model.Songs.Rate" class="control-label">Chỉ số Rating</label>
+                <input asp-for="@Model.Songs.Rate" class="form-control" />
+                <span asp-validation-for="@Model.Songs.Rate" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="LinkImg" class="control-label">Ghi chú</label>
-                <input asp-for="LinkImg" class="form-control" />
-                <span asp-validation-for="LinkImg" class="text-danger"></span>
+                <label asp-for="@Model.Songs.LinkLocal" class="control-label">Tên file nhạc</label>
+                <input asp-for="@Model.Songs.LinkLocal" class="form-control" />
+                <span asp-validation-for="@Model.Songs.LinkLocal" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Lyric" class="control-label">Lời bài hát</label>
-                <input asp-for="Lyric" class="form-control" />
-                <span asp-validation-for="Lyric" class="text-danger"></span>
+                <label asp-for="@Model.Songs.LinkImg" class="control-label">Ghi chú</label>
+                <input asp-for="@Model.Songs.LinkImg" class="form-control" />
+                <span asp-validation-for="@Model.Songs.LinkImg" class="text-danger"></span>
             </div>
+            <div class="form-group">
+                <label asp-for="@Model.Songs.Lyric" class="control-label">Lời bài hát</label>
+                <input asp-for="@Model.Songs.Lyric" class="form-control" />
+                <span asp-validation-for="@Model.Songs.Lyric" class="text-danger"></span>
+            </div>
+
+
+
             <div class="form-group title">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Thêm" class="btn btn-primary" />
             </div>
         </form>
     </div>

@@ -13,5 +13,6 @@ namespace MusicWeb.Models.Domain
         }
         public DbSet<Songs> Songs { get; set; }
         public DbSet<MusicWeb.Models.Domain.FavouritesSongs>? FavouritesSongs { get; set; }
+        public DbSet<MusicWeb.Models.Domain.Genre>? Genre { get; set; }
     }
 }

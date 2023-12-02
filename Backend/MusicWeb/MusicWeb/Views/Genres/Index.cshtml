@@ -1,0 +1,42 @@
+﻿@model IEnumerable<MusicWeb.Models.Domain.Genre>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<header>
+    <style>
+        .title {
+            display: flex;
+            justify-content: center; /* Căn giữa theo chiều ngang */
+        }
+    </style>
+</header>
+<h1 class="title">Danh sách thể loại nhạc</h1>
+
+<p>
+    <a asp-action="Create">Thêm mới</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Thể loại nhạc
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.GenreName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.GenreId">Chỉnh sửa</a> |
+                <a asp-action="Details" asp-route-id="@item.GenreId">Chi tiết</a> |
+                <a asp-action="Delete" asp-route-id="@item.GenreId">Xóa</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

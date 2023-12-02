@@ -5,7 +5,7 @@
 }
 <!-- BOOTSTRAP STYLES-->
 <!-- Sidebar -->
-<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+<ul class="navbar-nav bg-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#">
@@ -44,7 +44,11 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <a class="collapse-item" asp-controller="FavouritesSongs" asp-route-username="@name" asp-action="Index">YÊU THÍCH</a>
-                <a class="collapse-item" href="cards.html">NGE GẦN ĐÂY</a>
+            </div>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <a class="collapse-item" asp-controller="Genres" asp-action="GetGenre">THỂ LOẠI NHẠC</a>
             </div>
         </div>
     </li>
@@ -63,12 +67,18 @@
                 <span>QL BÀI HÁT</span>
             </a>
         </li>
-@*         <li class="nav-item active">
-            <a class="nav-link" href="/Admin/Display">
+        <li class="nav-item active">
+            <a class="nav-link" href="/Admin/ListUser">
                 <i class="fas fa-fw fa-tachometer-alt"></i>
                 <span>QL NGƯỜI DÙNG</span>
             </a>
-        </li> *@
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="/Genres/Index">
+                <i class="fas fa-fw fa-tachometer-alt"></i>
+                <span>THỂ LOẠI BÀI HÁT</span>
+            </a>
+        </li>
     }
 
     

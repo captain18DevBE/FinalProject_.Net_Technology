@@ -10,7 +10,7 @@ body {
 .head {
     width: 100%;
     height: 20vh;
-    background: linear-gradient(to right, #4268d6, #333); /* Màu gradient từ đỏ đến xanh lá */
+    background: linear-gradient(to right, #4268d6, #333);
     display: flex;
     align-items: start;
     justify-content: space-around;
@@ -54,7 +54,7 @@ body {
     height: 10vh;
     background: #333;
     display: flex;
-    align-items: end;
+    align-items: start;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -110,13 +110,13 @@ body {
 .div3 {
     display: flex;
     justify-content: center ;
-    align-items: center;
+    align-items: flex-start;
 }
 .lyric-container {
     max-width: 800px;
     margin: auto;
     padding: 20px;
-    background-color: #262626;
+    background-color: rgb(222, 218, 218);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     overflow: hidden;
@@ -131,7 +131,7 @@ body {
     margin-bottom: 10px; /
 }
   .lyric-container p {
-    color: #fff;
+    color: #181818;
     font-family: 'Arial', sans-serif;
   }
   

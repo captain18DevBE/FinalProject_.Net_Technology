@@ -21,85 +21,39 @@
             <img src="@Model.LinkImg" class="img">
         </div>
         <div class="divH2">
-            <h1>@Model.SongName</h1>
+            <h2 style="color: #fff; padding-top:5%; font-weight:bold">@Model.SongName</h2>
             <p>@Model.Title</p>
         </div>
     </div>
-    <div class="lyric-container">
+    <div class="lyric-container" style="background-color: rgb(222, 218, 218);">
         <h2>LỜI BÀI HÁT</h2>
-        <p>
-            I'm sorry but
-            Don't wanna talk, I need a moment 'fore I go
-            It's nothing personal
-            I draw the blinds
-            They don't need to see me cry
-            'Cause even if they understand
-            They don't understand
-            So then when I'm finished
-            I'm all 'bout my business and ready to save the world
-            I'm taking my misery
-            Make it my bitch, can't be everyone's favorite girl
-            So take aim and fire away
-            I've never been so wide awake
-            No, nobody but me can keep me safe
-            And I'm on my way
-            The blood moon is on the rise
-            The fire burning in my eyes
-            No, nobody but me can keep me safe
-            And I'm on my way
-            Lo siento mucho (Farru), pero me voy
-            Porque a tu lado me di cuenta que nada soy
-            Y me cansé de luchar y de guerrear en vano
-            De estar en la línea de fuego y de meter la mano
-            Acepto mis errores, también soy humano
-            Y tú no ve' que lo hago porque te amo
-            Pero ya (Ya) no tengo más na' que hacer aquí (aquí)
-            Me voy, llegó la hora 'e partir (partir)
-            De mi propio camino, seguir lejos de ti
-            So take aim and fire away
-            I've never been so wide awake
-            No, nobody but me can keep me safe
-            And I'm on my way
-            The blood moon is on the rise (is on the rise, na-na)
-            The fire burning in my eyes (the fire burning in my eyes)
-            No, nobody but me can keep me safe
-            And I'm on my way
-            I'm on my way
-            Everybody keep me safe
-            Everybody keep me safe
-            Everybody keep me safe
-            Everybody, everybody on my way
-            So take aim and fire away
-            I've never been so wide awake
-            No, nobody but me can keep me safe
-            And I'm on my way
-            The blood moon is on the rise
-            The fire burning in my eyes
-            No, nobody but me can keep me safe
-            And I'm on my way
+        <p style="color: #181818;">
+            @Model.Lyric
         </p>
     </div>
     <div class="container">
-        <div class="music-player">
-            <div class="div1">
+        <div class="music-player" style="width:85%; background:#4e73df;">
+            <div class="div1" style="display: flex; align-items: center;">
                 <img src="@Model.LinkImg" class="song-img">
-                <h3 style="margin-left: 5px;">@Model.SongName</h3>
-                <p style="margin-left: 5px; margin-top: 2px;">@Model.Title</p>
+                <div style="margin-left: 10px; flex-grow: 1;">
+                    <h3 style="margin:0 0 5px 0; font-size: 20px; font-weight:bold">@Model.SongName</h3>
+                    <p style="margin:0px; padding:0px; font-size: 16px;">@Model.Title</p>
+                </div>
             </div>
-            <div class="div2" style="width: 50%;">
+
+            <div class="div2" style="width: 50%;display: flex; justify-content: center ;align-items: center;">
                 <audio controls id="song" style="width: 100%;">
                     <source src="@Model.LinkLocal" type="audio/mpeg" id="ctrlHeart">
                 </audio>
             </div>
-            <div class="div3">
+            <div class="div3" style="display: flex; justify-content: start ;align-items: center;">
                 <div onclick="changeHeart()" class="circle">
-                    
-                    <a asp-controller="FavouritesSongs" asp-action="CreateNew" asp-route-id="@Model.SongId" asp-route-username="@name">><i class="fa-regular fa-heart fa-2xl" id="controlIcon" style="color: #ffffff;"></i></a>
-
-                    
+                    <a asp-controller="FavouritesSongs" asp-action="CreateNew" asp-route-id="@Model.SongId" asp-route-username="@name">
+                        <i class="fa-regular fa-heart fa-2xl" id="controlIcon" style="color: #ffffff;"></i>
+                    </a>
                 </div>
-
             </div>
+
         </div>
     </div>
     <script>

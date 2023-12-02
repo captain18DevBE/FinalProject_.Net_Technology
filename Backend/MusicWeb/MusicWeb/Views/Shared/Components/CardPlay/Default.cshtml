@@ -13,12 +13,21 @@
             if(count <= 11)
             {
                 <div class="col-md-3 col-sm-6">
-                    <div class="card card-block" style="margin-top: 10px !important" style="margin-top: 10px !important">
-                        <h4 class="card-title text-right">@item.SongName</h4>
-                        <img src="@item.LinkImg" alt="Photo of sunset">
-                        <h5 class="card-title mt-3 mb-3">@item.Title</h5>
+                    <div class="card card-block" style="margin-top: 10px ;width: 180px !important">
+                        <img src="@item.LinkImg" alt="Photo of sunset" style="width: 100%; height: auto; aspect-ratio: 1/1;">
+                        <h2 class="card-title text-left font-weight-bold" , style="padding-top:5%;">@item.SongName</h2>
+                        <h5 class="card-title mt-1 mb-1" style="font-size:10px;">@item.Title</h5>
                         <a asp-controller="Songs" asp-action="MusicPlay" asp-route-id="@item.SongId">Lắng nghe bài hát</a>
+                        @if (User.IsInRole("admin"))
+                        {
+                            <div>
+                                <a asp-action="Edit" asp-route-id="@item.SongId">Chỉnh sửa</a> |
+                                <a asp-action="Delete" asp-route-id="@item.SongId">Xóa</a>
+                            </div>
+                                                }
+
                     </div>
+
                 </div>
             }
             count++;

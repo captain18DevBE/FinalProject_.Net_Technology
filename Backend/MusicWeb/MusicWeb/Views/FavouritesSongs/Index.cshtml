@@ -18,8 +18,8 @@
             {
                 <div class="col-md-3 col-sm-6">
                     <div class="card card-block" style="margin-top: 10px !important" style="margin-top: 10px !important">
-                        <h4 class="card-title text-right">@item.SongName</h4>
-                        <img src="@item.LinkImg" alt="Photo of sunset">
+                        <h4 class="card-title text-left">@item.SongName</h4>
+                        <img src="@item.LinkImg" alt="Photo of sunset" style="width: 100%; height: auto; aspect-ratio: 1/1;">
                         <h5 class="card-title mt-3 mb-3">@item.Title</h5>
                         <a asp-controller="Songs" asp-action="MusicPlay" asp-route-id="@item.SongId">Lắng nghe bài hát</a>
                     </div>

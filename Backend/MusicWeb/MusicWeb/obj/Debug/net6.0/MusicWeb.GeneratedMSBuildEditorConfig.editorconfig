@@ -9,129 +9,161 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MusicWeb
 build_property.RootNamespace = MusicWeb
-build_property.ProjectDir = E:\TH_CN-dotNet\Github\FinalProject_.Net_Technology\Backend\MusicWeb\MusicWeb\
+build_property.ProjectDir = C:\Users\ADMIN\Documents\Zalo Received Files\FinalProject_.Net_Technology-main (1)\FinalProject_.Net_Technology-main\FinalProject_.Net_Technology-main\Backend\MusicWeb\MusicWeb\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\TH_CN-dotNet\Github\FinalProject_.Net_Technology\Backend\MusicWeb\MusicWeb
+build_property.MSBuildProjectDirectory = C:\Users\ADMIN\Documents\Zalo Received Files\FinalProject_.Net_Technology-main (1)\FinalProject_.Net_Technology-main\FinalProject_.Net_Technology-main\Backend\MusicWeb\MusicWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/Admin/Display.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Admin/Display.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGlzcGxheS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/Dashboard/Display.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Admin/ListUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTGlzdFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Dashboard/Display.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXERpc3BsYXkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/FavouritesSongs/Create.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/FavouritesSongs/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3VyaXRlc1NvbmdzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/FavouritesSongs/Delete.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/FavouritesSongs/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3VyaXRlc1NvbmdzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/FavouritesSongs/Details.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/FavouritesSongs/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3VyaXRlc1NvbmdzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/FavouritesSongs/Edit.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/FavouritesSongs/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3VyaXRlc1NvbmdzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/FavouritesSongs/Index.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/FavouritesSongs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3VyaXRlc1NvbmdzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/Home/Index.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Genres/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Genres/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Genres/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Genres/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Genres/GetGenre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVzXEdldEdlbnJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Genres/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Genres/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVzXFNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/Home/Privacy.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/Shared/Components/CardPlay/Default.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Shared/Components/CardPlay/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2FyZFBsYXlcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/Shared/Components/Message/Default.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Shared/Components/Message/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWVzc2FnZVxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/Shared/Components/Navbar/Default.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Shared/Components/Navbar/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2YmFyXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/Shared/Components/Notification/Default.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Shared/Components/Notification/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTm90aWZpY2F0aW9uXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/Shared/Components/Search/Default.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Shared/Components/Search/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2VhcmNoXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/Shared/Components/UserInf/Default.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Shared/Components/UserInf/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVXNlckluZlxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/Shared/Error.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/Songs/Create.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Songs/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/Songs/Delete.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Songs/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/Songs/Details.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Songs/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/Songs/Edit.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Songs/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/Songs/Index.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Songs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/Songs/MusicPlay.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Songs/MusicPlay.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ3NcTXVzaWNQbGF5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/Songs/Search.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Songs/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ3NcU2VhcmNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/UserAuthentication/ChangePassword.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/UserAuthentication/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckF1dGhlbnRpY2F0aW9uXENoYW5nZVBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/UserAuthentication/Login.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/UserAuthentication/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckF1dGhlbnRpY2F0aW9uXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/UserAuthentication/Registration.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/UserAuthentication/Registration.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckF1dGhlbnRpY2F0aW9uXFJlZ2lzdHJhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/_ViewImports.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/_ViewStart.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TH_CN-dotNet/Github/FinalProject_.Net_Technology/Backend/MusicWeb/MusicWeb/Views/Shared/_Layout.cshtml]
+[C:/Users/ADMIN/Documents/Zalo Received Files/FinalProject_.Net_Technology-main (1)/FinalProject_.Net_Technology-main/FinalProject_.Net_Technology-main/Backend/MusicWeb/MusicWeb/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-xn3qpp6sg3

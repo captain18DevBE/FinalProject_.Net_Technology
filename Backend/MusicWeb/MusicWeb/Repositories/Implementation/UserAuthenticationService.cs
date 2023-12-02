@@ -52,7 +52,7 @@ namespace MusicWeb.Repositories.Implementation
             if (user == null)
             {
                 status.StatusCode = 0;
-                status.StatusMessage = "Sai ten dang nhap";
+                status.StatusMessage = "Tên đăng nhập không tồn tại";
                 return status;
             }
 
@@ -60,7 +60,7 @@ namespace MusicWeb.Repositories.Implementation
             if (!await userManager.CheckPasswordAsync(user, model.Password))
             {
                 status.StatusCode = 0;
-                status.StatusMessage = "Mat khau khong dung";
+                status.StatusMessage = "Mật khẩu không đúng";
                 return status;
             }
 
@@ -80,17 +80,17 @@ namespace MusicWeb.Repositories.Implementation
                 }
 
                 status.StatusCode = 1;
-                status.StatusMessage = "Dang nhap tai khoan thanh cong";
+                status.StatusMessage = "Đăng nhập thành công";
                 return status;
             } else if (signInResult.IsLockedOut)
             {
                 status.StatusCode = 0;
-                status.StatusMessage = "Tai khoan da bi khoa";
+                status.StatusMessage = "Tài khoản đã bị khóa";
                 return status;
             } else
             {
                 status.StatusCode = 0;
-                status.StatusMessage = "Da co loi xay ra";
+                status.StatusMessage = "Đã có lỗi xảy ra";
                 return status;
             }
         }
@@ -108,7 +108,7 @@ namespace MusicWeb.Repositories.Implementation
             if (useExists != null)
             {
                 status.StatusCode = 0;
-                status.StatusMessage = "Ton tai Nguoi dung";
+                status.StatusMessage = "Tài khoản đã tồn tại";
                 return status;
             }
 
@@ -126,7 +126,7 @@ namespace MusicWeb.Repositories.Implementation
             if (!result.Succeeded)
             {
                 status.StatusCode = 0;
-                status.StatusMessage = "Tao nguoi dung that bai";
+                status.StatusMessage = "Tạo tài khoản thất bại";
                 return status;
             }
 
@@ -140,7 +140,7 @@ namespace MusicWeb.Repositories.Implementation
             }
 
             status.StatusCode = 1;
-            status.StatusMessage = "Tao tao khoan thanh cong";
+            status.StatusMessage = "Chúc mừng bạn tạo tài khoản thành công";
             return status;
         }
     }

@@ -226,6 +226,26 @@ namespace MusicWeb.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("MusicWeb.Models.Domain.FavouritesSongs", b =>
+                {
+                    b.Property<int>("FavoritesId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("FavoritesId"), 1L, 1);
+
+                    b.Property<int>("SongId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("FavoritesId");
+
+                    b.ToTable("FavouritesSongs");
+                });
+
             modelBuilder.Entity("MusicWeb.Models.Domain.Songs", b =>
                 {
                     b.Property<int>("SongId")
@@ -233,6 +253,9 @@ namespace MusicWeb.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SongId"), 1L, 1);
+
+                    b.Property<int>("GenreId")
+                        .HasColumnType("int");
 
                     b.Property<string>("LinkImg")
                         .IsRequired()

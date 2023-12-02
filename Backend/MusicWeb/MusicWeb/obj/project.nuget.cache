@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SE9mq2gmJXgBbF30Fxzc+sf6M+/81k0FRK/8+CnB6dP/aJtu/JGZflJxD6PyGVIu6j/wCVg1tpKk1LorwJKqUQ==",
+  "dgSpecHash": "VU7dIibWkiz0wyHsPeZ570GCPYFiz8i6lP3qbQrcCwsf7q240OFkqURjx1Sr0dq/jLcEfh6PjiQ6xBDhnwtHjQ==",
   "success": true,
-  "projectFilePath": "E:\\TH_CN-dotNet\\Github\\FinalProject_.Net_Technology\\Backend\\MusicWeb\\MusicWeb\\MusicWeb.csproj",
+  "projectFilePath": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\FinalProject_.Net_Technology-main (1)\\FinalProject_.Net_Technology-main\\FinalProject_.Net_Technology-main\\Backend\\MusicWeb\\MusicWeb\\MusicWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
